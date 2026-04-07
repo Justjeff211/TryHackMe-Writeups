@@ -57,5 +57,5 @@ This repository documents my hands-on labs and investigations from TryHackMe, wh
 
 ---
 
-## 🚀 Learning Philosophy  
+## Learning Philosophy  
 > "Consistency over intensity. One investigation at a time."
