@@ -34,29 +34,13 @@ A **calling convention** is a set of rules that defines how functions receive ar
 
 On 64-bit Windows, the convention used is called **fastcall**. The rules are:
 
-Parameter
-
-Register
-
-1st
-
-RCX
-
-2nd
-
-RDX
-
-3rd
-
-R8
-
-4th
-
-R9
-
-5th+
-
-Stack
+| Parameter | Register |  
+|----------|----------|  
+| 1st | RCX |  
+| 2nd | RDX |  
+| 3rd | R8 |  
+| 4th | R9 |  
+| 5th+ | Stack |
 
 **Why this matters:** When analysing a function call, you look at what is loaded into RCX and RDX immediately before the call instruction. Those values are the arguments being passed to the function.
 
