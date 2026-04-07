@@ -45,6 +45,21 @@ This repository documents my hands-on labs and investigations from TryHackMe, wh
 
 ---
 
+## Disclaimer
+
+These write-ups are for educational purposes only. No flags or direct answers are included, in line with TryHackMe's learning principles.
+
+---
+
 ## Connect With Me  
 - LinkedIn: https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/ 
 
+---
+
+## Learning Philosophy
+
+> _"Don't just complete labs - understand what is happening and why it matters."_
+
+As a SOC Analyst, my goal is not to collect badges. It is to build the kind of analytical depth that makes me more effective at detecting, investigating and responding to real threats.
+
+Every room in this repository represents a concept I can apply in my day-to-day work or in the deeper investigations that follow an escalation.
