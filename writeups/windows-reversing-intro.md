@@ -1,8 +1,8 @@
-#  1. Windows Reversing Intro
+# Windows Reversing Intro
 
 ## What Is Reverse Engineering?
 
-Reverse engineering in cybersecurity is the process of analyzing a compiled program — a binary — to understand what it does, without access to the original source code.
+Reverse engineering in cybersecurity is the process of analysing a compiled program, a binary to understand what it does without access to the original source code.
 
 When a developer writes code in a language like C or C++, it gets compiled into machine code that the CPU can execute directly. Reverse engineering works backwards from that machine code to reconstruct the logic.
 
@@ -22,7 +22,7 @@ When you run a program, the following happens:
 2.  Those instructions are loaded into memory
 3.  The CPU executes them sequentially, with jumps and branches controlling flow
 
-Inside a disassembler like IDA, you see those CPU instructions directly — this is called **assembly language**.
+Inside a disassembler like IDA, you see those CPU instructions directly - this is called **assembly language**.
 
 Assembly is not difficult to read because of syntax. It is difficult because context is missing. The analyst must rebuild that context through observation and pattern recognition.
 
@@ -58,7 +58,7 @@ R9
 
 Stack
 
-**Why this matters:** When analyzing a function call, you look at what is loaded into RCX and RDX immediately before the call instruction. Those values are the arguments being passed to the function.
+**Why this matters:** When analysing a function call, you look at what is loaded into RCX and RDX immediately before the call instruction. Those values are the arguments being passed to the function.
 
 **Example from HelloWorld.exe:**
 
@@ -68,7 +68,7 @@ The instruction:
 lea rcx, format
 ```
 
-Loads the address of a format string into RCX — the first parameter. This tells us the function being called is likely `printf()`, even though IDA does not label it that way.
+Loads the address of a format string into RCX which is the first parameter. This tells us the function being called is likely `printf()`, even though IDA does not label it that way.
 
 This is a core skill in reverse engineering: **inferring function identity from behavior and parameters**.
 
@@ -115,7 +115,7 @@ int main() { int result = x + 5; }
 
 The `Add` function disappears entirely.
 
-**Why this matters for analysis:** If `std::cout` is only called once, the compiler may inline it — meaning you will not see a clean function call. Instead, the string appears directly inside a large block of code. This can be confusing if you do not know to expect it.
+**Why this matters for analysis:** If `std::cout` is only called once, the compiler may inline it, meaning you will not see a clean function call. Instead, the string appears directly inside a large block of code. This can be confusing if you do not know to expect it.
 
 **The rule:** If a function appears more than once, inlining usually does not happen. If it appears only once, expect the possibility of inlining.
 
@@ -125,9 +125,9 @@ The `Add` function disappears entirely.
 
 Loops in assembly do not look like `for` or `while`. They are built from three components:
 
-1.  **A counter** — a register that tracks how many iterations have occurred
-2.  **A condition** — a comparison that determines whether to continue
-3.  **A jump** — an instruction that sends execution back to the top of the loop
+1.  **A counter** - a register that tracks how many iterations have occurred
+2.  **A condition** - a comparison that determines whether to continue
+3.  **A jump** - an instruction that sends execution back to the top of the loop
 
 **How to identify them:**
 
@@ -157,9 +157,9 @@ This tells us:
 
 Reverse engineering is not a daily SOC task, but understanding it improves:
 
--   **Malware triage** — knowing what a binary is doing at a functional level
--   **Escalation quality** — providing DFIR teams with accurate behavioral context
--   **Threat intelligence** — understanding what capabilities malware actually has
+-   **Malware triage** - knowing what a binary is doing at a functional level
+-   **Escalation quality** - providing DFIR teams with accurate behavioral context
+-   **Threat intelligence** - understanding what capabilities malware actually has
 
 The key lesson from this room is not the specific instructions. It is the mindset: **focus on patterns, not individual lines. Make assumptions, then validate them against observed behavior.**
 
