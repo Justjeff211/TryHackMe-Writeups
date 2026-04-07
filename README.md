@@ -45,13 +45,6 @@ This repository documents my hands-on labs and investigations from TryHackMe, wh
 
 ---
 
-## Current Goals  
-- Preparing for SC-200 (Microsoft Security Operations Analyst)  
-- Strengthening KQL & threat hunting skills  
-- Expanding DFIR and malware analysis capabilities  
-
----
-
 ## Connect With Me  
 - LinkedIn: https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/ 
 
