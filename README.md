@@ -48,7 +48,3 @@ This repository documents my hands-on labs and investigations from TryHackMe, wh
 ## Connect With Me  
 - LinkedIn: https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/ 
 
----
-
-## Learning Philosophy  
-> "Consistency over intensity. One investigation at a time."
