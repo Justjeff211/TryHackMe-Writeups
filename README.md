@@ -1,4 +1,4 @@
-# Mojalefa Jeff | Cybersecurity Letsoara – Cybersecurity Portfolio  
+# Mojalefa Jeff | Cybersecurity Letsoara - Cybersecurity Portfolio  
 
 SOC Analyst | Splunk | SIEM | Threat Detection | Blue Team  
 
@@ -24,11 +24,11 @@ This repository documents my hands-on labs and investigations from TryHackMe, wh
 ## Write-Ups  
 
 ### Ransomware & DFIR  
-- [Dunkle Materie – ProcDOT Investigation](writeups/dunkle-materie.md)  
-- [REvil Corp – Memory Forensics with Redline](writeups/revil-corp.md)  
+- [Dunkle Materie - ProcDOT Investigation](writeups/dunkle-materie.md)  
+- [REvil Corp - Memory Forensics with Redline](writeups/revil-corp.md)  
 
 ### Reverse Engineering  
-- [Windows Reversing Intro – IDA Analysis](writeups/windows-reversing-intro.md)  
+- [Windows Reversing Intro - IDA Analysis](writeups/windows-reversing-intro.md)  
 
 ### Threat Hunting / KQL  
 - KC7 Cyber Detective Investigations *(coming soon)*  
