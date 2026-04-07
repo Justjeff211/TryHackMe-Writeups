@@ -27,7 +27,7 @@ This repository documents my hands-on labs and investigations from TryHackMe, wh
 - [Dunkle Materie – ProcDOT Investigation](writeups/dunkle-materie.md)  
 - [REvil Corp – Memory Forensics with Redline](writeups/revil-corp.md)  
 
-### 🔬 Reverse Engineering  
+### Reverse Engineering  
 - [Windows Reversing Intro – IDA Analysis](writeups/windows-reversing-intro.md)  
 
 ### Threat Hunting / KQL  
