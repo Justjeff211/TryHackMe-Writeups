@@ -1,65 +1,114 @@
-# Mojalefa Jeff | Cybersecurity Letsoara - Cybersecurity Portfolio  
 
-SOC Analyst | Splunk | SIEM | Threat Detection | Blue Team  
+Here is a **refined, more polished version** of your GitHub README. It keeps your tone but tightens the language, improves structure, and makes it clearer that the repo contains multiple rooms.
 
----
+----------
 
-## About Me  
-I am a SOC Analyst focused on threat detection, incident analysis, and continuous learning in cybersecurity.  
+# Mojalefa Jeff | Cybersecurity Letsoara – Cybersecurity Portfolio
 
-This repository documents my hands-on labs and investigations from TryHackMe, where I simulate real-world attack scenarios and practice detection and response techniques.
+**SOC Analyst | Splunk | SIEM | Threat Detection | Blue Team**
 
----
+----------
 
-## Core Skills  
-- SIEM (Splunk)  
-- Threat Detection & Analysis  
-- Incident Response  
-- Digital Forensics (DFIR)  
-- Malware Analysis  
-- MITRE ATT&CK Framework  
+## About Me
 
----
+I am a SOC Analyst focused on threat detection, incident investigation, and continuous skill development in cybersecurity.
 
-## Write-Ups  
+This repository contains my hands-on write-ups from **TryHackMe**, where I work through multiple challenges covering real-world attack scenarios. Each write-up focuses on understanding attacker behaviour, analysing logs or artifacts and applying practical detection and response techniques.
 
-### Ransomware & DFIR  
-- [Dunkle Materie - ProcDOT Investigation](writeups/dunkle-materie.md)  
-- [REvil Corp - Memory Forensics with Redline](writeups/revil-corp.md)  
+----------
 
-### Reverse Engineering  
-- [Windows Reversing Intro - IDA Analysis](writeups/windows-reversing-intro.md)  
+## What This Repository Contains
 
-### Threat Hunting / KQL  
-- KC7 Cyber Detective Investigations *(coming soon)*  
+This repository is a collection of **multiple TryHackMe challenges**, each documenting a different investigation or technical concept.
 
----
+Areas covered include:
 
-## Tools I Work With  
-- Splunk  
-- Wireshark  
-- ProcDOT  
-- Redline  
-- IDA Free  
-- VirusTotal  
+-   Incident Response (IR) scenarios
+    
+-   Digital Forensics (DFIR) investigations
+    
+-   Threat hunting and log analysis
+    
+-   Malware analysis and reverse engineering
+    
+-   Memory forensics
+    
+-   SIEM-based investigations (Splunk, KQL)
+    
 
----
+Each challenge is treated as a standalone case study, with a focus on methodology, analysis and reasoning rather than just completing tasks.
+
+----------
+
+## Core Skills
+
+-   SIEM (Splunk)
+    
+-   Threat Detection & Analysis
+    
+-   Incident Response
+    
+-   Digital Forensics (DFIR)
+    
+-   Malware Analysis
+    
+-   MITRE ATT&CK Framework
+    
+    
+
+----------
+
+## Tools I Work With
+
+-   Splunk
+    
+-   Wireshark
+    
+-   ProcDOT
+    
+-   Redline
+    
+-   IDA Free
+    
+-   VirusTotal
+
+-   KQL (Kusto Query Language)
+
+-   Nano Editor
+
+-   CyberChef
+
+-   MalwareBazaar
+    
+    To name a few...
+
+----------
 
 ## Disclaimer
 
-These write-ups are for educational purposes only. No flags or direct answers are included, in line with TryHackMe's learning principles.
+These write-ups are for educational purposes only.
 
----
+No flags or direct answers are included, in line with TryHackMe’s learning approach. The focus is on understanding the process, not just reaching the solution.
 
-## Connect With Me  
-- LinkedIn: https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/ 
-
----
+----------
 
 ## Learning Philosophy
 
-> _"Don't just complete labs - understand what is happening and why it matters."_
+> “Don’t just complete labs, understand what is happening and why it matters.”
 
-As a SOC Analyst, my goal is not to collect badges. It is to build the kind of analytical depth that makes me more effective at detecting, investigating and responding to real threats.
+The goal is not to collect badges, but to build practical analytical depth.
 
-Every room in this repository represents a concept I can apply in my day-to-day work or in the deeper investigations that follow an escalation.
+Each challenge in this repository represents a skill or concept that can be applied in real SOC environments, whether during alert triage or deeper incident investigations.
+
+----------
+
+## Connect With Me
+
+-   LinkedIn: [https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/](https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/)
+    
+
+----------
+
+## About This Repository
+
+Hands-on cybersecurity write-ups covering DFIR, malware analysis, memory forensics, reverse engineering and incident response from a SOC Analyst perspective.
