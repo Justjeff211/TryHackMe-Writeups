@@ -53,7 +53,6 @@ The first HTTP connection to the malicious IP was recorded at:
 2021-09-24 16:44:38
 ```
 
-Attach Image
 
 #### Analysis 
 
