@@ -1,5 +1,4 @@
 
-Here is a **refined, more polished version** of your GitHub README. It keeps your tone but tightens the language, improves structure, and makes it clearer that the repo contains multiple rooms.
 
 ----------
 
