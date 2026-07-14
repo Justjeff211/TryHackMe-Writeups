@@ -2,7 +2,7 @@
 
 ----------
 
-# Mojalefa Jeff | Cybersecurity Letsoara – Cybersecurity Portfolio
+# Mojalefa L. Letsoara – Cybersecurity Portfolio
 
 **SOC Analyst | Splunk | SIEM | Threat Detection | Blue Team**
 
